@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-cashify"
+version = "0.1.0"
+description = "Python library for Cashify QRIS API integration."
+authors = [ { name = "iamnolimit" } ]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = ["requests", "croniter"]
+
+[project.urls]
+Homepage = "https://github.com/iamnolimit/py-cashify"
