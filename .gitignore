@@ -1,1 +1,11 @@
-py_cashify/
+build/
+*.pyc
+__pycache__/
+.pytest_cache/
+env/
+venv/
+.idea/
+.vscode/
+.DS_Store
+dist/
+*.egg-info/
